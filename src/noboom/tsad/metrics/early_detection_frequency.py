@@ -1,7 +1,7 @@
 import numpy.typing as npt
 import numpy as np
 
-from noboom.src.noboom.tsad.metrics import compute_events
+from noboom.tsad.metrics import compute_events
 
 
 def edf(predictions: npt.NDArray[int], targets: npt.NDArray[int]) -> float:
